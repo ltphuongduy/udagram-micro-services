@@ -5,9 +5,9 @@ metadata:
   labels:
     app: udagram-services
 data:
-  POSTGRES_HOST: 
-  POSTGRES_DB: 
-  AWS_BUCKET: 
+  POSTGRES_HOST: uda-postgres.cnihynlcl4nd.us-west-2.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: backend-datastore
   AWS_REGION: us-west-2
   AWS_PROFILE: default
   JWT_SECRET: St$ks@Fa&1eD
